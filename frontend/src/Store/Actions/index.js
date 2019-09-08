@@ -1,4 +1,5 @@
 import * as addMovie from './addMovieActions';
+import * as addListMovie from './addListMovieActions';
 import * as app from './appActions';
 import * as blacklist from './blacklistActions';
 import * as calendar from './calendarActions';
@@ -25,6 +26,7 @@ import * as tags from './tagActions';
 
 export default [
   addMovie,
+  addListMovie,
   app,
   blacklist,
   calendar,
